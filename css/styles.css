@@ -9,7 +9,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
- 
 }
 .header_burger {
   display: none;
@@ -37,7 +36,7 @@ header {
 }
 /* section */
 .section1 {
-  background-image: url("/images/section1_cover.png");
+  background-image: url("../images/section1_cover.png");
   background-size: cover;
   display: flex;
   align-items: center;
@@ -52,7 +51,6 @@ header {
   font-size: 56px;
   font-weight: 900;
   line-height: 60px;
-   nowrap;
   text-align: center;
 }
 
@@ -78,38 +76,35 @@ span {
   color: white;
 }
 /* section2 */
-.section2{
+.section2 {
   background-color: #000;
   display: flex;
-  justify-content:space-between;
-  padding:60px 150px;
-  align-items:center
-
+  justify-content: space-between;
+  padding: 60px 150px;
+  align-items: center;
 }
-.section2_image{
+.section2_image {
   width: 490px;
-height: 400px
-
-
+  height: 400px;
 }
-.section2_text{
-  width:490px;
+.section2_text {
+  width: 490px;
   display: flex;
   flex-direction: column;
   color: #fff;
   gap: 20px;
 }
-h3{
-color: #FFF;
-font-size: 24px;
-font-weight: 900;
-line-height: 32px; 
-letter-spacing: -0.1px;
+h3 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: -0.1px;
 }
-.section2_p{
- color: #FFF;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px; 
-letter-spacing: 0.1px;
+.section2_p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.1px;
 }
